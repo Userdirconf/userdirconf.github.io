@@ -459,6 +459,10 @@ section {
   color: #aeaeae;
 }
 
+p {
+  color: black;
+}
+
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
@@ -510,7 +514,7 @@ section {
 
 .services .icon-box p {
   font-size: 15px;
-  color: #959595;
+  color: #000000;
   margin-left: 60px;
 }
 
@@ -520,6 +524,7 @@ section {
   background-size: cover;
   min-height: 400px;
 }
+
 
 /*--------------------------------------------------------------
 # Featured
@@ -1236,7 +1241,7 @@ section {
 
 .pricing .box h4 {
   font-size: 42px;
-  color: #151515;
+  color: #000000;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 20px;
@@ -1249,7 +1254,7 @@ section {
 }
 
 .pricing .box h4 span {
-  color: #bababa;
+  color: #000000;
   font-size: 16px;
   font-weight: 300;
 }
@@ -1257,7 +1262,7 @@ section {
 .pricing .box ul {
   padding: 0;
   list-style: none;
-  color: #151515;
+  color: #000000;
   text-align: center;
   line-height: 20px;
   font-size: 14px;
@@ -1330,6 +1335,9 @@ section {
   font-weight: 600;
 }
 
+.suscripcion {
+  color: black;
+}
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
