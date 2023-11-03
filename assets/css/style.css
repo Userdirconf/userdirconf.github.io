@@ -123,6 +123,53 @@ h6 {
     margin-top: 90px;
   }
 }
+/* testimonios */
+/* Estilos generales */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Estilos del título "Testimonios" */
+.testimonials h2 {
+  color: black; /* Color del texto en negro */
+}
+
+/* Estilos de la tabla de testimonios */
+.testimonials-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.testimonials-table th, .testimonials-table td {
+  border: 1px solid #ddd; /* Añade bordes a las celdas */
+  padding: 8px;
+  text-align: left;
+  color: white; /* Color del texto blanco */
+}
+
+.testimonials-table th {
+  background-color: transparent; /* Cambia el color de fondo de los encabezados */
+}
+
+/* Estilos de la imagen del testimonio */
+.testimonial-img {
+  width: 100px; /* Ajusta el tamaño de la imagen según sea necesario */
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Estilos de la sección de testimonios */
+.testimonials {
+  background-color: #f8f8f8;
+  padding: 40px 0;
+}
+
+/* Ajusta otros estilos según sea necesario */
+
+
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
