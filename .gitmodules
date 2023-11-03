@@ -1,0 +1,3 @@
+[submodule "themes/userdirconf"]
+	path = themes/userdirconf
+	url = https://github.com/Userdirconf/userdirconf.github.io.git

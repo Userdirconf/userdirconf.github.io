@@ -66,14 +66,6 @@ h6 {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Disable AOS delay on mobile
---------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
-  [data-aos-delay] {
-    transition-delay: 0 !important;
-  }
-}
 
 /*--------------------------------------------------------------
 # Header
@@ -769,9 +761,7 @@ p {
   height: 120px;
   animation-delay: 0s;
   animation: pulsate-btn 2s;
-  animation-direction: forwards;
   animation-iteration-count: infinite;
-  animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
   border: 5px solid rgba(124, 197, 118, 0.7);
@@ -1402,7 +1392,6 @@ p {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: #7cc576;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
@@ -1673,7 +1662,6 @@ p {
 }
 
 #footer .footer-top p {
-  font-size: 15;
   font-style: italic;
   margin: 30px 0 0 0;
   padding: 0;
