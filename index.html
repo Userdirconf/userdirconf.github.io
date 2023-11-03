@@ -25,6 +25,7 @@
 
   <!-- CSS principal -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <script src="validator.js"></script>
 </head>
 
 <body>
@@ -54,7 +55,7 @@
           <li><a class="nav-link scrollto" href="#about">Sobre Nosotros</a></li>
           <li><a class="nav-link scrollto" href="#services">Servicios</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Galería</a></li>
-          <li><a class="nav-link scrollto" href="#team">Nuestro equipo</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#team">Nuestro equipo</a></li> -->
           <li><a class="nav-link scrollto" href="#pricing">Suscripciones</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -625,7 +626,7 @@
     
     <!-- Final de nuestros Sponsors -->
 
-    <!-- ======= Nuestro equipo ======= -->
+    <!-- ======= Nuestro equipo
     <section id="team" class="team">
       <div class="container">
 
@@ -699,7 +700,7 @@
         </div>
 
       </div>
-    </section><!-- End Team Section -->
+    </section> End Team Section -->
 
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing section-bg">
@@ -769,7 +770,7 @@
       </div>
     </section><!-- End Pricing Section -->
 
-    <!-- ======= Frequently Asked Questions Section ======= -->
+    <!-- ======= Frequently Asked Questions Section
     <section id="faq" class="faq">
       <div class="container">
 
@@ -858,7 +859,76 @@
         </ul>
 
       </div>
+    </section> End Frequently Asked Questions Section -->
+    <section id="faq" class="faq">
+      <div class="container">
+    
+        <div class="section-title" data-aos="fade-up">
+          <h2>Preguntas Frecuentes</h2>
+        </div>
+    
+        <ul class="faq-list">
+    
+          <li data-aos="fade-up">
+            <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#faq1">¿Es seguro comprar en su tienda en línea? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Sí, nuestra tienda en línea utiliza medidas de seguridad avanzadas para garantizar la protección de sus datos personales y la seguridad de sus transacciones.
+              </p>
+            </div>
+          </li>
+    
+          <li data-aos="fade-up" data-aos-delay="100">
+            <a data-bs-toggle="collapse" data-bs-target="#faq2" class="collapsed">¿Cuáles son las opciones de envío disponibles? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Ofrecemos varias opciones de envío, incluyendo envío estándar y express. Puede seleccionar la opción de envío que mejor se adapte a sus necesidades durante el proceso de compra.
+              </p>
+            </div>
+          </li>
+    
+          <li data-aos="fade-up" data-aos-delay="200">
+            <a data-bs-toggle="collapse" data-bs-target="#faq3" class="collapsed">¿Cómo puedo realizar un seguimiento de mi pedido? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Una vez que su pedido haya sido enviado, recibirá un correo electrónico de confirmación con un enlace de seguimiento. Puede utilizar este enlace para realizar un seguimiento en tiempo real del estado de su pedido.
+              </p>
+            </div>
+          </li>
+    
+          <li data-aos="fade-up" data-aos-delay="300">
+            <a data-bs-toggle="collapse" data-bs-target="#faq4" class="collapsed">¿Cuál es su política de devoluciones? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Aceptamos devoluciones dentro de los 30 días posteriores a la recepción del artículo. Por favor, consulte nuestra página de políticas de devoluciones para obtener más información sobre el proceso de devolución.
+              </p>
+            </div>
+          </li>
+    
+          <li data-aos="fade-up" data-aos-delay="400">
+            <a data-bs-toggle="collapse" data-bs-target="#faq5" class="collapsed">¿Tienen una tienda física donde pueda probar los productos? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Actualmente, operamos exclusivamente en línea. Sin embargo, ofrecemos detalladas descripciones de productos y tablas de tallas para ayudarlo a tomar decisiones informadas sobre su compra.
+              </p>
+            </div>
+          </li>
+    
+          <li data-aos="fade-up" data-aos-delay="500">
+            <a data-bs-toggle="collapse" data-bs-target="#faq6" class="collapsed">¿Cómo puedo ponerme en contacto con el servicio al cliente? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Puede ponerse en contacto con nuestro servicio al cliente a través de nuestro formulario de contacto en línea o por correo electrónico a support@ejemplo.com. Estamos aquí para ayudarlo con cualquier pregunta o inquietud.
+              </p>
+            </div>
+          </li>
+    
+        </ul>
+    
+      </div>
     </section><!-- End Frequently Asked Questions Section -->
+    
+
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact section-bg">
@@ -907,10 +977,10 @@
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Cargando</div>
